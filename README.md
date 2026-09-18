@@ -52,3 +52,12 @@ The Tutor now accepts learning context from the other Ethan apps, but it does no
 - Improved tutor system guidance for age-appropriate step-by-step teaching and calculations.
 - Fixed malformed Escape-key event code that could repeatedly register lifecycle listeners.
 - Live open-ended AI still requires server-only AI_API_URL, AI_API_KEY and AI_MODEL environment variables.
+
+
+## v2.3 Gemini Live Tutor fix
+- Ask Ethan Tutor now connects natively to the Gemini REST generateContent API.
+- Vercel requires `GEMINI_API_KEY` (or `GOOGLE_API_KEY`).
+- Optional: `GEMINI_MODEL`; default is `gemini-3.8-flash`.
+- The older `AI_API_URL`, `AI_API_KEY`, and `AI_MODEL` variables are no longer required for Gemini.
+- `/api/health` reports whether the Gemini key is present without exposing it.
+- Tutor API reports distinct missing-key, credential, model, quota, timeout and upstream errors.
