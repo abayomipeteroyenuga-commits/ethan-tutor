@@ -1,0 +1,1 @@
+export default function handler(req,res){res.setHeader('Cache-Control','no-store');res.status(200).json({ok:true,aiConfigured:Boolean(process.env.AI_API_URL&&process.env.AI_API_KEY&&process.env.AI_MODEL),version:'2.2'});}
