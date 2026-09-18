@@ -1,24 +1,9 @@
-# ETHAN TUTOR AI v1.3 — Academic Knowledge Engine
+# ETHAN TUTOR AI v1.4 — Smart Tutoring Experience
 
-Domain target: `tutor.ethandigitalacademy.org`
+Domain: tutor.ethandigitalacademy.org
 
-## What changed
-- Level-aware subject catalogue from Basic 1–3 through SS1–3.
-- 16 academic subject areas across primary, junior secondary and senior secondary pathways.
-- 100+ topic slots across the knowledge engine.
-- New Topic Explorer and Academic Knowledge Engine.
-- Guided lesson pattern: simple meaning, why it matters, example, step-by-step, learner task and revision.
-- Deeper authored examples for key Mathematics, English, Biology, Chemistry, Physics, Accounting, Economics and Digital Technologies topics.
-- Existing assessment, progress, revision, goals and local learner state retained.
-- Architecture remains ready for later Ethan ID, Ethan Learn, LMS/ERP and Ethan Code integration.
+Research-informed original Ethan Digital Academy implementation. v1.4 adds a diagnostic-style Learning Check, personalised next-step recommendations, adaptive practice, active-recall flashcards, focused study sessions, mastery-aware topic statistics, and UI/robustness fixes while preserving the v1.3 Academic Knowledge Engine and official Ethan Tutor AI branding.
 
-## Important production note
-Live generative AI is intentionally not embedded in the browser. Connect the Tutor to an approved server-side AI service later. Never expose private provider API keys in client-side JavaScript.
+Design patterns were informed by public descriptions of Khan Academy/Khanmigo (guided hints and thinking rather than direct-answer dependency), IXL (diagnostic insights and personalised next steps), and Quizlet Learn (adaptive practice and active recall). No proprietary curriculum or source code was copied.
 
-This build contains original Ethan Tutor educational material. It does not reproduce third-party textbooks or examination papers.
-
-
-## v1.3.1 Official Logo Update
-- Added the official Ethan Tutor AI robot-and-graduation-cap logo.
-- Replaced the temporary ET header mark with the official brand artwork.
-- Added responsive logo sizing while retaining all v1.3 Academic Knowledge Engine features.
+Production note: live generative AI is intentionally not bundled client-side. Connect an approved AI provider through a secure server endpoint and Ethan ID/backend during the integration phase. Never expose provider secret keys in browser code.

@@ -7,3 +7,4 @@
 /* Ethan Tutor AI official logo */
 .official-logo{width:82px;height:64px;object-fit:contain;border-radius:10px;background:#fff;display:block}
 @media(max-width:700px){.official-logo{width:68px;height:54px}.brand b{font-size:.9rem}.brand small{font-size:.68rem}}
+.smartStudy{padding:65px 8%;background:#eef6ff}.smartOutput{max-width:1000px}.smartGrid{grid-template-columns:repeat(4,1fr)}.flashcard{padding:28px;border-radius:18px;background:#fff;border:1px solid #d8e5f3;font-size:18px;line-height:1.6;margin-top:12px}.masteryBar{height:10px;background:#dce8f5;border-radius:999px;overflow:hidden;margin-top:10px}.masteryBar i{display:block;height:100%;background:#0759d8}.focusActive{font-weight:800;color:#0759d8}@media(max-width:900px){.smartGrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.smartStudy{padding:45px 5%}.smartGrid{grid-template-columns:1fr}}
